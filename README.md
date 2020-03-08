@@ -20,3 +20,4 @@ Run tests on CircleCi-provided Android Docker images with
 ## Expected results
 
 ![2020-03-04_23-01-40](https://user-images.githubusercontent.com/2743637/75927170-25b02080-5e6c-11ea-80cc-e5e87dc1f3a0.jpg)
+
