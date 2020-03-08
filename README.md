@@ -2,7 +2,7 @@
 Basic project to test [zip4j](https://github.com/srikanth-lingala/zip4j) library on Android
 
 ## Test status
-[![CircleCI](https://circleci.com/gh/nicolabeghin/zip4j-android-test.svg?style=svg)](https://circleci.com/gh/nicolabeghin/zip4j-android-test)
+[![Build Status](https://travis-ci.org/srikanth-lingala/zip4j-android-test.svg?branch=master)](https://travis-ci.org/srikanth-lingala/zip4j-android-test)
 
 ## How to use (Docker)
 Run tests on CircleCi-provided Android Docker images with 
