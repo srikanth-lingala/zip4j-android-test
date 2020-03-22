@@ -16,3 +16,6 @@ TEST_CLASS="zip4j/src/test/java/net/lingala/zip4j/MiscZipFileIT.java"
 LINE=$((`grep -n "testCustomThreadFactory" $TEST_CLASS | cut -f1 -d:`-1))
 sed "${LINE}s/@/\/\/@/" $TEST_CLASS > outfile
 mv outfile $TEST_CLASS
+
+# exclude Zip64 tests for Android. They are tested in regular travis build
+rm zip4j/src/test/java/net/lingala/zip4j/ZipFileZip64IT.java
